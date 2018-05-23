@@ -41,7 +41,6 @@ import sre_compile #@UnusedImport
 import shutil #@UnusedImport
 
 def WeAreFrozen():
-	print("Hello")
     return hasattr(sys, "frozen")
 
 def ModulePath():
